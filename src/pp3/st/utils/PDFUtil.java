@@ -117,12 +117,13 @@ public class PDFUtil {
         }
 
         //ESTRUCTURA TABLA ENCABEZADO SERVICIO TECNICO
-        PdfPTable tablaST = new PdfPTable(5);
+        PdfPTable tablaST = new PdfPTable(6);
         tablaST.addCell("Tipo de orden ST");
         tablaST.addCell("ID Servicio Técnico");
         tablaST.addCell("Fecha Estimada");
         tablaST.addCell("Costo estimado");
         tablaST.addCell("Factura");
+        tablaST.addCell("Tipo producto");
 
         //SINCRONIZACION DE DATOS DE TABLA  CLIENTE
         tablaCliente.addCell(s.getCliente().getDni());
@@ -143,6 +144,7 @@ public class PDFUtil {
         tablaST.addCell(s.getFechaServicio().toString());
         tablaST.addCell("$"+s.getCosto());
         tablaST.addCell(s.getNumFactura());
+        tablaST.addCell(s.getTipoProducto());
         try {
             documento.add(fecha);
             documento.add(header);

@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="PP3-ST.jar" size="40781393" download="eager" />
+    <jar href="PP3-ST.jar" size="40781434" download="eager" />
     <jar href="lib\activation.jar" size="69492" download="eager" />
     <jar href="lib\apache-commons-codec-1.4.jar" size="62704" download="eager" />
     <jar href="lib\commons-beanutils-1.8.0.jar" size="231320" download="eager" />
