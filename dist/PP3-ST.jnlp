@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PP3-ST.jnlp">
+  <information>
+    <title>PP3-ST</title>
+    <vendor>Matyas</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="PP3-ST.jar" size="40781393" download="eager" />
+    <jar href="lib\activation.jar" size="69492" download="eager" />
+    <jar href="lib\apache-commons-codec-1.4.jar" size="62704" download="eager" />
+    <jar href="lib\commons-beanutils-1.8.0.jar" size="231320" download="eager" />
+    <jar href="lib\commons-collections-2.1.1.jar" size="175426" download="eager" />
+    <jar href="lib\commons-collections-3.2.1.jar" size="575389" download="eager" />
+    <jar href="lib\commons-digester-2.1.jar" size="196768" download="eager" />
+    <jar href="lib\commons-javaflow-20060411.jar" size="96529" download="eager" />
+    <jar href="lib\commons-logging-1.1.1.jar" size="60841" download="eager" />
+    <jar href="lib\controlsfx-8.0.6_20.jar" size="856539" download="eager" />
+    <jar href="lib\controlsfx-8.0.6_20_1.jar" size="856539" download="eager" />
+    <jar href="lib\groovy-all-1.7.5.jar" size="5482221" download="eager" />
+    <jar href="lib\gson-2.8.6.jar" size="240255" download="eager" />
+    <jar href="lib\itext5-itextpdf-5.5.12.jar" size="2320211" download="eager" />
+    <jar href="lib\jasperreports-4.7.1.jar" size="3998149" download="eager" />
+    <jar href="lib\jasperreports-applet-4.7.1.jar" size="487978" download="eager" />
+    <jar href="lib\jasperreports-fonts-4.7.1.jar" size="2478095" download="eager" />
+    <jar href="lib\jasperreports-javaflow-4.7.1.jar" size="4041522" download="eager" />
+    <jar href="lib\jcommon-1.0.15.jar" size="309294" download="eager" />
+    <jar href="lib\jfoenix-8.0.10.jar" size="2710207" download="eager" />
+    <jar href="lib\jfoenix-9.0.10.jar" size="2432549" download="eager" />
+    <jar href="lib\jfreechart-1.0.12.jar" size="1368681" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.30.jar" size="2513563" download="eager" />
+    <jar href="lib\poi-3.7-20101029.jar" size="1675036" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="pp3.st.Main"  name="PP3-ST" />
+  <update check="always"/>
+</jnlp>
