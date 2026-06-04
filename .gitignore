@@ -1,0 +1,28 @@
+# ==========================================
+# Gitignore para Proyecto Java (NetBeans / Ant)
+# ==========================================
+
+# Carpetas de Compilación y Distribución (Binarios locales)
+build/
+dist/
+nbbuild/
+package/
+
+# Configuraciones específicas de NetBeans (Entorno local)
+nbproject/private/
+nbproject/Makefile-genesis.properties
+nbproject/package.properties
+
+# Archivos de registro y logs
+*.log
+nbproject/*.log
+
+# Archivos temporales o de volcado de memoria de Java
+hs_err_pid*.log
+replay_pid*.log
+
+# Configuraciones del Sistema Operativo
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
