@@ -1,4 +1,4 @@
-"""# Gestión de Servicio Técnico - SmartHard (PP3 Final)
+# Gestión de Servicio Técnico - SmartHard (PP3 Final)
 
 Este proyecto consiste en el diseño e implementación de un sistema de escritorio para la **Gestión de Servicios Técnicos**, desarrollado como trabajo final para la materia **Práctica Profesionalizante III (2023)** de la Tecnicatura Superior en Análisis y Programación de Sistemas.
 
